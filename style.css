@@ -30,8 +30,8 @@ a{
 
 ul{
     display: inline-block;
-
 }
+
 
 nav ul li{
     display: inline-block;
@@ -82,12 +82,23 @@ nav ul li a{
     margin-top: 20px;
 }
     
-.header-text p{
-    font-size: 15px;
+.font-15{
+    font-size: 1rem;
     color:#334759;
     line-height: 2rem;
-    font-weight: 500;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
+
+.font-20{
+    font-size: 25px;
+    color:#334759;
+    font-weight: 900;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+    
 
 h1{
     font-size: 50px;
@@ -102,44 +113,122 @@ h1{
     height: 100px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    transform: translate(0%,-25%);
+    transform: translate(0%,-30%);
+    position: absolute;
 }
     
 /* fine blueline */
     
 
 /* seconda sezione del main */
+
 .hero-container{
-    background-color{
-        
-    }
-}
-.st-section{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color:#f4f9fd;
+    padding-top: 4%;
+    
 }
 
+.container2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.section-img1{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    
+}
+
+.font-40{
+    color: #384652;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.font-30{
+    color: #384652;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+    
+
+
+.white-container{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 85%;
+    margin-top: 30px;
+    margin: auto;
+}
+    
+.section-img2{
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+    
+.margin-l{
+    margin-left: 20%;
+}
+    
+.hr{
+    color:rgb(123,123,123);
+    margin: auto;
+    width: 73%;
+    transform:translate(55% , 0);
+    position: absolute;
+    top: 206px;
+    /* come sposto questa riga piu sopra? con absolute + top, ma è corretto? */
+}     
+    
+hr{
+    border: none;
+    height: 2px;
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+} 
+    
+.li2{
+    display: inline-block;
+    padding: 20px 1px;
+    font-weight: 500;
+}    
+   
+.ver-align{
+    vertical-align: middle;
+}    
 
 /* fine seconda sezione del main */
 
+/* sezione a tre colonne */
 
 /* colonne */
+.col-1{
+    width:40%;
+    padding: 20px;
+}
+    
+
+.col-2{
+    width: 50%;
+}
+    
 
 .col-3{
     width: 33.3%;
 }
 
-.col-2{
-    width: 50%;
-}
 
 .column{
     float: left;
     padding: 50px 0;
-    background-color: lightskyblue;
     position: relative;
 }
+    
 
 /* fine colonne */
 
