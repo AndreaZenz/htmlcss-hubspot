@@ -20,6 +20,9 @@
 .fl-r{
     float: right;
 }
+.fl-l{
+    float: left;
+}
 
 /* header */
 a{
@@ -125,8 +128,8 @@ h1{
 .hero-container{
     background-color:#f4f9fd;
     padding-top: 4%;
-    
 }
+    
 
 .container2{
     width: 50%;
@@ -159,6 +162,7 @@ h1{
 .white-container{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     width: 85%;
     margin-top: 30px;
     margin: auto;
@@ -206,6 +210,16 @@ hr{
 
 /* sezione a tre colonne */
 
+.row{
+    background-color: white;
+    width: 85%;
+    margin-top: 30px;
+    margin: auto;
+}
+
+
+/* fine sezione a tre colonne */
+
 /* colonne */
 .col-1{
     width:40%;
@@ -219,8 +233,10 @@ hr{
     
 
 .col-3{
-    width: 33.3%;
+    width: 31.8%;
+    height: 500px;
 }
+    
 
 
 .column{
@@ -228,6 +244,19 @@ hr{
     padding: 50px 0;
     position: relative;
 }
+
+.column3{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+    
+.margin2{
+    margin-left: 31px;
+    margin-right: 31px;
+}  
     
 
 /* fine colonne */
