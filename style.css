@@ -48,32 +48,81 @@ nav ul li a{
 }
 
 .l-hgt85{
-  line-height: 40px;
+    line-height: 40px;
 }
 /* header */
 
 /* primo riquadro main */
 .header-container{
-    background-color: #fff1ee ;
+    background-color: #fef5ee ;
     width: 100%;
-    height: 600px;
 }
+    
+    
+    
+.bg1{
+    background-image: url(img/jumbotron.png);
+    background-position: 100% 70%;
+    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+}   
+    
+    
 .header-text{
-    width: 40%;
+    width: 37%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
     
-.header-text h1,.header-text p{
+.p-10{
     padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
+    
+.header-text p{
+    font-size: 15px;
+    color:#334759;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
 h1{
     font-size: 50px;
     color: #334759;
 }
-    
-    
 /*  fine primo riquadro main */
+    
+/* blueline */
+.blueline{
+    width: 100%;
+    background-color: #afeae4;
+    height: 100px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(0%,-25%);
+}
+    
+/* fine blueline */
+    
+
+/* seconda sezione del main */
+.hero-container{
+    background-color{
+        
+    }
+}
+.st-section{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* fine seconda sezione del main */
+
 
 /* colonne */
 
@@ -101,6 +150,7 @@ h1{
     padding: 15px;
     text-decoration: none;
 }
+   
 
 .btn1{
     border: 1px solid #c08f87;
@@ -113,7 +163,22 @@ h1{
     background-color: #fe775a;
 }
 
+.btn3{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    background-color: #fe775a;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+    
+
 /* fine button */
+
+
+    
+    
+    
 
 
 
