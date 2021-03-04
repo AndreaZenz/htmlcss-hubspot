@@ -237,8 +237,6 @@ hr{
     height: 500px;
 }
     
-
-
 .column{
     float: left;
     padding: 50px 0;
@@ -257,6 +255,14 @@ hr{
     margin-left: 31px;
     margin-right: 31px;
 }  
+
+.section-img3{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
     
 
 /* fine colonne */
