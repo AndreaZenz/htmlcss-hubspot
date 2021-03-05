@@ -274,16 +274,19 @@ div ul{
     width:40%;
     padding: 20px;
 }
-    
 
 .col-2{
     width: 50%;
 }
     
-
 .col-3{
     width: 31.5%;
     /* height: 800px; */
+}
+
+.column4{
+    width: 25%;
+    
 }
     
 .column{
@@ -425,7 +428,26 @@ div ul{
     background-size: 400px;
 }
 /*  fine penultimo blocco con signorina */
-    
+
+/* inizio footer */
+.wrapper{
+    background-color: #32495b;
+    height: 600px;
+}
+
+.title-contact{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+footer div ul li a{
+    color: #b3c2d1;
+    line-height: 3rem;
+}
+
+/* fine footer */
 
     
 /* Button */
@@ -456,7 +478,17 @@ div ul{
     padding: 20px 30px;
     text-decoration: none;
 }
-    
+
+.btn4{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #485864;
+    background-color: #dadee1;
+    padding: 20px 30px;
+    text-decoration: none;
+
+
+}
 
 /* fine button */
     
