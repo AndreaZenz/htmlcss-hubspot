@@ -366,10 +366,11 @@ div ul{
 /* fine terzo blocco azzurro */
 
 /* penultimo blocco con signorina */
+
 .bottom-container2{
-    width: 35%;
     margin-left: 5%;
 }
+    
     
 
 .font-3block{
@@ -381,8 +382,8 @@ div ul{
 .container4{
     margin: auto;
     width: 40%;
-    height: 200px;
 }
+   
 
 .container5{
     padding: 20px;
@@ -403,22 +404,29 @@ div ul{
 }
 
 .logo-container{
-    float: left;
-    width: 100px;
-    height: 150px;
-    background-color: brown;
+    width: 20%;
+    margin-left: 30px;
+    vertical-align: middle;
 }
 
 .fl-left{
     float: left;
 }
+    
 
 .fl-right{
     float: right;
 }
 
-
+.bg2{
+    background-image: url(img/woman.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px;
+}
 /*  fine penultimo blocco con signorina */
+    
+
     
 /* Button */
 
