@@ -328,20 +328,21 @@ div ul{
     margin-bottom: 20px;
 }
 
-.box{
-    width: 280px;
-    height: 180px;
+.up-box{
+    width: 25%;
+    height: 20%;
     float: left;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
 }
+    
 
 .img-box{
     padding: 20px;
 }
 .box-font{
     font-size: 3rem;
-    font
+    font-weight: 900;
 }
 /* fine terzo blocco azzurro */
 
