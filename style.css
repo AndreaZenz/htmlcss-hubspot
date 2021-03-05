@@ -432,8 +432,8 @@ div ul{
 /* inizio footer */
 .wrapper{
     background-color: #32495b;
-    height: 600px;
 }
+    
 
 .title-contact{
     color: white;
@@ -447,11 +447,22 @@ footer div ul li a{
     line-height: 3rem;
 }
 
+
+
+.leng-wrapper{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.leng-wrapper ul li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: #b3c2d1;
+}
 /* fine footer */
-
-    
 /* Button */
-
 .btn{
     border-radius: 15px;
     padding: 15px;
@@ -486,11 +497,16 @@ footer div ul li a{
     background-color: #dadee1;
     padding: 20px 30px;
     text-decoration: none;
-
-
 }
-
 /* fine button */
+
+
+
+    
+
+
+
+
     
 
 
