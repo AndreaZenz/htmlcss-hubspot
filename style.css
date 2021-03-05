@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 1624px;
+    width: 1424px;
     padding: 30px 0;
     margin: auto;
 }
@@ -98,7 +98,7 @@ nav ul li a{
     color:#334759;
     font-weight: 900;
     padding-bottom: 20px;
-    display: inline;
+    
 }
 
     
@@ -156,6 +156,13 @@ h1{
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+.font-10{
+    font-size: 1rem;
+    color:#334759;
+    font-weight: 600;
+}
+    
     
 
 
@@ -217,6 +224,48 @@ hr{
     margin: auto;
 }
 
+.margin2{
+    margin-left: 31px;
+    margin-right: 31px;
+}  
+
+.section-img3{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+    
+.secondp{
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color:#334759 ;
+}
+
+.hr2{
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+div ul{
+    list-style-type: none;
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+.m20{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
 
 /* fine sezione a tre colonne */
 
@@ -233,8 +282,8 @@ hr{
     
 
 .col-3{
-    width: 31.8%;
-    height: 500px;
+    width: 31.5%;
+    /* height: 800px; */
 }
     
 .column{
@@ -251,20 +300,9 @@ hr{
     border-radius: 10px;
 }
     
-.margin2{
-    margin-left: 31px;
-    margin-right: 31px;
-}  
-
-.section-img3{
-    width: 150px;
-    height: 100px;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
+.p-b20px{
+    padding-bottom: 30px;
 }
-    
-
 /* fine colonne */
 
 /* Button */
