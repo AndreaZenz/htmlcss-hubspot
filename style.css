@@ -402,15 +402,24 @@ div ul{
     margin-top: 45px;
 }
 
+.logo-container{
+    float: left;
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+}
+
+.fl-left{
+    float: left;
+}
+
+.fl-right{
+    float: right;
+}
 
 
 /*  fine penultimo blocco con signorina */
     
-    
-    
-
-
-
 /* Button */
 
 .btn{
@@ -442,6 +451,13 @@ div ul{
     
 
 /* fine button */
+    
+
+
+    
+
+
+
 
 
     
