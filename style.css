@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 1424px;
+    width: 1440px;
     padding: 30px 0;
     margin: auto;
 }
@@ -16,13 +16,16 @@
     clear: both;
     display: table;
 }
-
 .fl-r{
     float: right;
 }
 .fl-l{
     float: left;
 }
+.m-auto{
+    margin: auto;
+}
+
 /* header */
 a{
     text-decoration: none;
@@ -30,25 +33,13 @@ a{
     padding: 15px;
 }
 
-ul{
-    display: inline-block;
-}
-
 nav ul li{
     display: inline-block;
     padding: 0 20px;
     font-weight: 500;
 }
-nav ul li a{
-    appearance: none;
-}
-.leng{
-    border-right: 1px solid black;
-}
-.l-hgt85{
-    line-height: 40px;
-}
 /* header */
+
 /* primo riquadro main */
 .header-container{
     background-color: #fef5ee ;
@@ -56,39 +47,41 @@ nav ul li a{
 }
 .bg1{
     background-image: url(img/jumbotron.png);
-    background-position: 100% 70%;
-    background-size: cover;
+    background-position: 474px 70%;
     background-size: auto;
     background-repeat: no-repeat;
-    width: 100%;
 }   
-.header-text{
-    width: 37%;
+.wid-40{
+    width: 40%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .p-10{
     padding: 10px;
     margin-bottom: 15px;
     margin-top: 20px;
 }
+
+.blue-text-color{
+    color:#334759;
+}
+
 .font-15{
     font-size: 1rem;
-    color:#334759;
     line-height: 2rem;
     font-weight: 600;
     padding-bottom: 20px;
 }
-.font-20{
-    font-size: 25px;
-    color:#334759;
-    font-weight: 900;
-    padding-bottom: 20px;
+.font-30{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
+
 h1{
     font-size: 50px;
-    color: #334759;
 }
+    
 /*  fine primo riquadro main */
 /* blueline */
 .blueline{
@@ -108,28 +101,11 @@ h1{
 }
 .container2{
     width: 50%;
-    margin: auto;
     text-align: center;
 }
 .section-img1{
     height: 200px;
     width: 300px;
-    margin: auto;
-}
-.font-40{
-    color: #384652;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-.font-30{
-    color: #384652;
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-.font-10{
-    font-size: 1rem;
-    color:#334759;
-    font-weight: 600;
 }
 .white-container{
     background-color: white;
@@ -137,12 +113,10 @@ h1{
     border-radius: 10px;
     width: 85%;
     margin-top: 30px;
-    margin: auto;
 }
 .section-img2{
     width: 250px;
     height: 150px;
-    margin: auto;
     margin-bottom: 50px;
 }
 .margin-l{
@@ -150,7 +124,6 @@ h1{
 }
 .hr{
     color:rgb(123,123,123);
-    margin: auto;
     width: 73%;
     transform:translate(55% , 0);
     position: absolute;
@@ -177,7 +150,6 @@ hr{
     background-color: white;
     width: 85%;
     margin-top: 30px;
-    margin: auto;
 }
 .margin2{
     margin-left: 31px;
@@ -186,7 +158,6 @@ hr{
 .section-img3{
     width: 100px;
     height: 50px;
-    margin: auto;
     margin-bottom: 50px;
     margin-top: 30px;
 }
@@ -199,12 +170,13 @@ hr{
     line-height: 25px;
     color:#334759 ;
 }
+
 .hr2{
     width: 40%;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: auto;
 }
+    
 div ul{
     list-style-type: none;
     padding: 0 5px;
@@ -226,16 +198,9 @@ div ul{
 }
 .col-3{
     width: 31.5%;
-    /* height: 800px; */
 }
 .column4{
     width: 25%;
-    
-}
-.column{
-    float: left;
-    padding: 50px 0;
-    position: relative;
 }
 .column3{
     background-color: white;
@@ -244,6 +209,13 @@ div ul{
     position: relative;
     border-radius: 10px;
 }
+
+.column{
+    float: left;
+    padding: 50px 0;
+    position: relative;
+}
+    
 .p-b20px{
     padding-bottom: 30px;
 }
@@ -252,13 +224,13 @@ div ul{
 .third-block{
     background-image: linear-gradient(to right, #00aab9 , #01b9ab);
     width: 100%;
-    /* height: 800px; */
+    
 }
 .container3{
     width: 85%;
-    margin: auto;
     text-align: center;
 }
+    
 .col-w{
     color: white;
 }
@@ -308,10 +280,6 @@ div ul{
     font-weight: 900;
     padding-bottom: 30px;
 }
-.container4{
-    margin: auto;
-    width: 40%;
-}
 .container5{
     padding: 20px;
     width: 100%;
@@ -330,12 +298,6 @@ div ul{
     width: 20%;
     margin-left: 30px;
     vertical-align: middle;
-}
-.fl-left{
-    float: left;
-}
-.fl-right{
-    float: right;
 }
 .bg2{
     background-image: url(img/woman.webp);
@@ -360,7 +322,6 @@ footer div ul li a{
 }
 .leng-wrapper{
     width: 100%;
-    margin: auto;
     text-align: center;
 }
 .leng-wrapper ul li{
