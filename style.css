@@ -47,7 +47,7 @@ nav ul li{
 }
 .bg1{
     background-image: url(img/jumbotron.png);
-    background-position: 474px 70%;
+    background-position: 100% 70%;
     background-size: auto;
     background-repeat: no-repeat;
 }   
