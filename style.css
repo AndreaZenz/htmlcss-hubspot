@@ -25,7 +25,9 @@
 .m-auto{
     margin: auto;
 }
-
+.p-rel{
+    position: relative;
+}
 /* header */
 a{
     text-decoration: none;
@@ -127,9 +129,9 @@ h1{
     width: 73%;
     transform:translate(55% , 0);
     position: absolute;
-    top: 206px;
-    /* come sposto questa riga piu sopra? con absolute + top, ma è corretto? */
+    top: 50%;
 }     
+    
 hr{
     border: none;
     height: 2px;
