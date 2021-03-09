@@ -47,17 +47,19 @@ nav ul li{
     background-color: #fef5ee ;
     width: 100%;
 }
+
 .bg1{
     background-image: url(img/jumbotron.png);
     background-position: 100% 70%;
     background-size: auto;
     background-repeat: no-repeat;
 }   
+
 .wid-40{
     width: 40%;
-    margin-top: 30px;
     margin-bottom: 30px;
 }
+    
 
 .p-10{
     padding: 10px;
@@ -99,7 +101,8 @@ h1{
 /* seconda sezione del main */
 .hero-container{
     background-color:#f4f9fd;
-    padding-top: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .container2{
     width: 50%;
@@ -127,8 +130,8 @@ h1{
 
 .hr{
     color:rgb(123,123,123);
-    width: 73%;
-    transform:translate(55% , 0);
+    width: 65%;
+    transform:translate(60% , 0);
     position: absolute;
     top: 50%;
     border: 1px solid black;
@@ -197,9 +200,9 @@ div ul{
 /* fine sezione a tre colonne */
 /* colonne */
 .col-1{
-    width:40%;
-    padding: 20px;
+    width: 42.5%;
 }
+    
 .col-2{
     width: 50%;
 }
@@ -299,18 +302,23 @@ div ul{
     margin-bottom: 45px;
 }
 .m-top{
-    margin-top: 45px;
+    margin-top: 70px;
 }
 .logo-container{
     width: 20%;
     margin-left: 30px;
     vertical-align: middle;
 }
-.bg2{
+/* .bg2{
     background-image: url(img/woman.webp);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 400px;
+} */
+
+.woman{
+    width: 50%;
+    transform: translate(120%, 20%);
 }
 /*  fine penultimo blocco con signorina */
 /* inizio footer */
